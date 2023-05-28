@@ -5,6 +5,19 @@ public class Main {
 
         //new StackDS();
         //new QueueDS();
-        new LinkedListDS();
+        //new LinkedListDS();
+        DynamicArrayDS dynamicArray = new DynamicArrayDS();
+        System.out.println(dynamicArray);
+        System.out.println(dynamicArray.isEmpty());
+
+        dynamicArray.add("A");
+        dynamicArray.add("B");
+        dynamicArray.add("C");
+        dynamicArray.add("D");
+
+        dynamicArray.insert(0,"x");
+
+        System.out.println(dynamicArray);
+
     }
 }
